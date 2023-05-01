@@ -54,7 +54,7 @@ function Question ({ info, limit }: { info: QuestionType, limit: number }) {
           onClick={handleClipBoard}
           className='absolute right-0 p-2 cursor-pointer'
         >
-          <ClipboardIcon />
+          <ClipboardIcon color={theme === 'dark' ? 'text-white' : 'text-slate-900'} />
         </span>
         <SyntaxHighlighter
           language='javascript'
